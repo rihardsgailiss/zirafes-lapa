@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Order now — Giraffe360</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/order-now.css" />
+  </head>
+  <body class="page-order-now">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-header__logo" href="index.html" aria-label="Giraffe360 home">
+          <img src="assets/images/logo-giraffe360.svg" width="91" height="12" alt="" />
+        </a>
+        <div class="site-header__shell">
+          <nav id="site-nav" class="site-header__drawer" aria-label="Primary">
+            <ul class="site-header__main">
+              <li class="site-header__item site-header__item--product">
+                <a class="site-header__nav-link" href="product.html">Product</a>
+                <div class="site-header__mega">
+                  <div class="site-header__mega-inner" role="group" aria-label="Product sections">
+                    <a class="site-header__mega-card" href="product.html">
+                      <span class="site-header__mega-title">Overview</span>
+                      <span class="site-header__mega-desc">Capture, edit, enhance and share in one platform</span>
+                    </a>
+                    <a class="site-header__mega-card" href="camera.html">
+                      <span class="site-header__mega-title">Camera</span>
+                      <span class="site-header__mega-desc">Giraffe PRO Camera is built to capture everything you need from one property capture.</span>
+                    </a>
+                    <a class="site-header__mega-card" href="content-studio.html">
+                      <span class="site-header__mega-title">Content Studio</span>
+                      <span class="site-header__mega-desc">Edit, AI enhance, manage and share.</span>
+                    </a>
+                    <a class="site-header__mega-card" href="outputs.html">
+                      <span class="site-header__mega-title">Content</span>
+                      <span class="site-header__mega-desc">HDR photos, floor plans, virtual tours, videos, websites and more.</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="newsroom.html">Newsroom</a></li>
+              <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+            <div class="site-header__drawer-actions">
+              <a class="site-header__login site-header__drawer-only site-header__drawer-only--login" href="login.html">Log in</a>
+              <a class="btn btn--outline btn--sm site-header__drawer-only site-header__drawer-only--try" href="login.html">Try demo</a>
+              <a class="btn btn--solid btn--sm site-header__drawer-only site-header__drawer-only--order" href="order-now.html">Order now</a>
+            </div>
+          </nav>
+          <div class="site-header__divider site-header__divider--lead" role="presentation"></div>
+          <div class="site-header__toolbar">
+            <div class="site-header__actions">
+              <a class="site-header__login site-header__toolbar-login" href="login.html">Log in</a>
+              <a class="btn btn--outline btn--sm site-header__toolbar-try" href="login.html">Try demo</a>
+              <a class="btn btn--solid btn--sm site-header__toolbar-order" href="order-now.html">Order now</a>
+            </div>
+            <div class="site-header__divider site-header__divider--trail" role="presentation"></div>
+            <button
+              type="button"
+              class="site-header__menu-btn"
+              aria-expanded="false"
+              aria-controls="site-nav"
+              aria-label="Open menu"
+            >
+              <img src="Icons/18/Menu.svg" width="18" height="18" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="order-hero" aria-labelledby="order-plan-select-heading">
+        <div class="order-hero__inner wrap">
+          <div class="order-hero__media" aria-hidden="true">
+            <img src="assets/images/heroes/hero-order-now.png" width="640" height="560" alt="" />
+          </div>
+          <div class="order-hero__checkout-column">
+            <fieldset class="order-package-select">
+              <legend id="order-plan-select-heading" class="order-package-select__legend">Plan selection</legend>
+              <input
+                class="order-package-select__input"
+                type="radio"
+                name="order-package"
+                id="order-package-camera"
+                value="camera"
+                checked
+              />
+              <label class="order-package-select__label" for="order-package-camera">
+                Giraffe PRO Camera + Content Studio
+              </label>
+              <input
+                class="order-package-select__input"
+                type="radio"
+                name="order-package"
+                id="order-package-studio"
+                value="studio"
+              />
+              <label class="order-package-select__label" for="order-package-studio">Content Studio only</label>
+            </fieldset>
+            <article class="order-pricing-card">
+            <div class="order-pricing-card__intro">
+              <div
+                class="order-pricing-card__block order-pricing-card__block--tight order-pricing-card__block--camera-bundle"
+              >
+                <p class="order-pricing-card__line">Giraffe PRO Camera and auto-height tripod</p>
+                <p class="order-pricing-card__fine">Including camera bag and charger</p>
+              </div>
+              <div class="order-pricing-card__block order-pricing-card__block--tight">
+                <p class="order-pricing-card__line">Content Studio</p>
+                <p class="order-pricing-card__fine">Multiple workspaces, unlimited users</p>
+              </div>
+              <div class="order-pricing-card__block order-pricing-card__block--tight">
+                <p class="order-pricing-card__line">50 free AI credits monthly</p>
+                <p class="order-pricing-card__fine">$0.20 per credit on demand</p>
+              </div>
+              <div class="order-pricing-card__block order-pricing-card__block--tight">
+                <p class="order-pricing-card__line">Integrations</p>
+                <p class="order-pricing-card__fine">Additional fees may apply for specific integrations</p>
+              </div>
+            </div>
+
+            <hr class="order-pricing-card__divider" />
+
+            <fieldset class="order-plan">
+              <legend class="order-plan__legend">Billing period</legend>
+              <input
+                class="order-plan__input"
+                type="radio"
+                name="billing"
+                id="billing-monthly"
+                value="monthly"
+                checked
+              />
+              <label class="order-plan__label" for="billing-monthly">
+                <span class="order-plan__label-text">Monthly</span>
+              </label>
+              <input class="order-plan__input" type="radio" name="billing" id="billing-annual" value="annual" />
+              <label class="order-plan__label order-plan__label--annual" for="billing-annual">
+                <span class="order-plan__label-text">Annual</span>
+                <span class="order-plan__badge">30% discount</span>
+              </label>
+            </fieldset>
+
+            <hr class="order-pricing-card__divider" />
+
+            <ul class="order-promises">
+              <li class="order-promises__item">
+                <span class="order-promises__icon" aria-hidden="true">
+                  <img src="Icons/18/Wallet.svg" width="18" height="18" alt="" />
+                </span>
+                <p class="order-promises__text">30-day money-back guarantee</p>
+              </li>
+              <li class="order-promises__item order-promises__item--shipping">
+                <span class="order-promises__icon" aria-hidden="true">
+                  <img src="Icons/18/Shipping.svg" width="18" height="18" alt="" />
+                </span>
+                <p class="order-promises__text">Free shipping &amp; returns</p>
+              </li>
+              <li class="order-promises__item">
+                <span class="order-promises__icon" aria-hidden="true">
+                  <img src="Icons/18/Lock.svg" width="18" height="18" alt="" />
+                </span>
+                <p class="order-promises__text">Secure checkout</p>
+              </li>
+            </ul>
+
+            <p class="order-pricing-card__discount-note">Discount code can be applied during checkout</p>
+
+            <div class="order-checkout">
+              <p class="order-checkout__price" id="order-checkout-price" aria-live="polite">$360 / month</p>
+              <a class="order-checkout__btn" href="#checkout">Checkout</a>
+            </div>
+          </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div
+      id="order-sticky-pricing"
+      class="order-sticky-pricing"
+      role="region"
+      aria-label="Order summary"
+      aria-hidden="true"
+    >
+      <div class="order-sticky-pricing__card">
+        <div class="order-sticky-pricing__info">
+          <div class="order-sticky-pricing__text">
+            <p class="order-sticky-pricing__title" id="order-sticky-package-title">Giraffe PRO Camera + Content Studio</p>
+            <ul class="order-sticky-pricing__promises">
+              <li class="order-sticky-pricing__promise">
+                <span class="order-sticky-pricing__promise-icon" aria-hidden="true">
+                  <img src="Icons/18/Wallet.svg" width="18" height="18" alt="" />
+                </span>
+                <span>30-day money-back guarantee</span>
+              </li>
+              <li class="order-sticky-pricing__promise order-sticky-pricing__promise--shipping">
+                <span class="order-sticky-pricing__promise-icon" aria-hidden="true">
+                  <img src="Icons/18/Shipping.svg" width="18" height="18" alt="" />
+                </span>
+                <span>Free shipping &amp; returns</span>
+              </li>
+              <li class="order-sticky-pricing__promise">
+                <span class="order-sticky-pricing__promise-icon" aria-hidden="true">
+                  <img src="Icons/18/Lock.svg" width="18" height="18" alt="" />
+                </span>
+                <span>Secure checkout</span>
+              </li>
+            </ul>
+          </div>
+          <div class="order-sticky-pricing__checkout">
+            <p class="order-sticky-pricing__price" id="order-sticky-checkout-price" aria-live="polite">$360 / month</p>
+            <a class="order-sticky-pricing__btn" href="#checkout" tabindex="-1">Checkout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/order-now.js" defer></script>
+  
+  </body>
+</html>

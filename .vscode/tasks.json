@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Prototype: start static server",
+      "runOptions": { "runOn": "folderOpen" },
+      "type": "shell",
+      "command": "python3",
+      "args": ["-m", "http.server", "8080", "--bind", "::"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "http-server",
+        "pattern": { "regexp": "^$" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^",
+          "endsPattern": "Serving HTTP"
+        }
+      },
+      "presentation": { "reveal": "silent", "panel": "dedicated" }
+    },
+    {
+      "label": "Prototype: open Simple Browser",
+      "type": "shell",
+      "command": "echo",
+      "args": ["${input:prototypeSimpleBrowser}"],
+      "problemMatcher": [],
+      "presentation": { "reveal": "never", "echo": false, "focus": false }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "prototypeSimpleBrowser",
+      "type": "command",
+      "command": "simpleBrowser.show",
+      "args": ["http://localhost:8080/"]
+    }
+  ]
+}

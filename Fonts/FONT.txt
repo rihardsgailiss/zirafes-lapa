@@ -1,0 +1,1 @@
+Add your licensed Gilroy Medium file as Gilroy-Medium.woff2 (preferred) or Gilroy-Medium.otf in this folder. The site references Gilroy-Medium.woff2 in css/fonts.css.

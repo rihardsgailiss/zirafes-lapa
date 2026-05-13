@@ -1,0 +1,27 @@
+:root {
+  --color-primary-dark: #1a222e;
+  --color-tertiary-grey: #d7dadd;
+  --color-white: #ffffff;
+  --color-grey-light: #f3f3f3;
+  --color-black: #000000;
+
+  --page-max: 1440px;
+  --content-max: 1280px;
+  --page-gutter: 80px;
+
+  --text-14: 14px;
+  --text-18: 18px;
+  --text-32: 32px;
+  --track-14: 0.14px;
+  --track-18: 0.18px;
+  --track-32: 0.32px;
+  --lh-16: 16px;
+  --lh-24: 24px;
+  --lh-32: 32px;
+  --lh-40: 40px;
+
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-24: 24px;
+  --radius-80: 80px;
+}

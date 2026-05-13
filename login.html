@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Log in — Giraffe360</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body class="login-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="login-shell">
+      <header class="login-header">
+        <div class="login-header__inner">
+          <a class="login-header__logo" href="index.html" aria-label="Giraffe360 home">
+            <img src="assets/images/logo-giraffe360-login.svg" width="91" height="12" alt="" />
+          </a>
+        </div>
+      </header>
+
+      <main id="main" class="login-main">
+        <div class="login-main__stage">
+          <div class="login-main__grid">
+            <section class="login-main__content" aria-labelledby="login-heading">
+              <div class="login-main__intro">
+                <h1 id="login-heading" class="login-main__title">Welcome to Content Studio</h1>
+                <p class="login-main__lede t-body">
+                  Log in or create an account to explore Content Studio and the rest of the Giraffe360 platform.
+                </p>
+              </div>
+              <div class="login-options">
+                <button type="button" class="login-tertiary-btn">Continue with Google</button>
+                <p class="login-options__or">or</p>
+                <form class="login-email-block" action="#" method="post">
+                  <label class="visually-hidden" for="login-email">Email address</label>
+                  <input
+                    class="login-input"
+                    id="login-email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    placeholder="Email address"
+                    required
+                  />
+                  <button type="submit" class="login-primary-btn">Continue</button>
+                </form>
+              </div>
+            </section>
+            <div class="login-panel" role="presentation" aria-hidden="true">
+              <img class="login-panel__img" src="assets/images/heroes/hero-try-free.png" width="640" height="560" alt="" />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  
+  </body>
+</html>

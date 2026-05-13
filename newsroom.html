@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Newsroom — Giraffe360</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-header__logo" href="index.html" aria-label="Giraffe360 home">
+          <img src="assets/images/logo-giraffe360.svg" width="91" height="12" alt="" />
+        </a>
+        <div class="site-header__shell">
+          <nav id="site-nav" class="site-header__drawer" aria-label="Primary">
+            <ul class="site-header__main">
+              <li class="site-header__item site-header__item--product">
+                <a class="site-header__nav-link" href="product.html">Product</a>
+                <div class="site-header__mega">
+                  <div class="site-header__mega-inner" role="group" aria-label="Product sections">
+                    <a class="site-header__mega-card" href="product.html">
+                      <span class="site-header__mega-title">Overview</span>
+                      <span class="site-header__mega-desc">Capture, edit, enhance and share in one platform</span>
+                    </a>
+                    <a class="site-header__mega-card" href="camera.html">
+                      <span class="site-header__mega-title">Camera</span>
+                      <span class="site-header__mega-desc">Giraffe PRO Camera is built to capture everything you need from one property capture.</span>
+                    </a>
+                    <a class="site-header__mega-card" href="content-studio.html">
+                      <span class="site-header__mega-title">Content Studio</span>
+                      <span class="site-header__mega-desc">Edit, AI enhance, manage and share.</span>
+                    </a>
+                    <a class="site-header__mega-card" href="outputs.html">
+                      <span class="site-header__mega-title">Content</span>
+                      <span class="site-header__mega-desc">HDR photos, floor plans, virtual tours, videos, websites and more.</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="newsroom.html" aria-current="page">Newsroom</a></li>
+              <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+            <div class="site-header__drawer-actions">
+              <a class="site-header__login site-header__drawer-only site-header__drawer-only--login" href="login.html">Log in</a>
+              <a class="btn btn--outline btn--sm site-header__drawer-only site-header__drawer-only--try" href="login.html">Try demo</a>
+              <a class="btn btn--solid btn--sm site-header__drawer-only site-header__drawer-only--order" href="order-now.html">Order now</a>
+            </div>
+          </nav>
+          <div class="site-header__divider site-header__divider--lead" role="presentation"></div>
+          <div class="site-header__toolbar">
+            <div class="site-header__actions">
+              <a class="site-header__login site-header__toolbar-login" href="login.html">Log in</a>
+              <a class="btn btn--outline btn--sm site-header__toolbar-try" href="login.html">Try demo</a>
+              <a class="btn btn--solid btn--sm site-header__toolbar-order" href="order-now.html">Order now</a>
+            </div>
+            <div class="site-header__divider site-header__divider--trail" role="presentation"></div>
+            <button
+              type="button"
+              class="site-header__menu-btn"
+              aria-expanded="false"
+              aria-controls="site-nav"
+              aria-label="Open menu"
+            >
+              <img src="Icons/18/Menu.svg" width="18" height="18" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="newsroom-page" aria-labelledby="newsroom-heading">
+        <div class="newsroom-page__inner wrap" data-newsroom>
+          <h1 id="newsroom-heading" class="newsroom-page__title t-h1">Newsroom</h1>
+          <p class="newsroom-page__intro t-body">
+            Product launches, company news, and press—straight from the Giraffe360 team.
+          </p>
+
+          <div
+            class="newsroom-page__filters"
+            role="group"
+            aria-labelledby="newsroom-filter-heading"
+          >
+            <p class="newsroom-page__filters-label" id="newsroom-filter-heading">Category</p>
+            <button type="button" class="newsroom-filter-btn" data-news-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="newsroom-filter-btn" data-news-filter="product-updates" aria-pressed="false">
+              Product updates
+            </button>
+            <button type="button" class="newsroom-filter-btn" data-news-filter="beta" aria-pressed="false">Beta</button>
+            <button type="button" class="newsroom-filter-btn" data-news-filter="press" aria-pressed="false">Press</button>
+            <button type="button" class="newsroom-filter-btn" data-news-filter="company" aria-pressed="false">Company</button>
+          </div>
+
+          <ul class="newsroom-page__grid">
+            <li data-news-category="company">
+              <a class="newsroom-card" href="news-article-series-b.html">
+                <div class="newsroom-card__image" aria-hidden="true">Image</div>
+                <div class="newsroom-card__body">
+                  <div class="newsroom-card__meta">
+                    <span class="newsroom-card__category">Company</span>
+                    <time class="newsroom-card__date" datetime="2026-04-30">30 April, 2026</time>
+                  </div>
+                  <h2 class="newsroom-card__title t-h2">Giraffe360 closes Series B to scale automated property marketing</h2>
+                </div>
+              </a>
+            </li>
+            <li data-news-category="company">
+              <a class="newsroom-card" href="news-article-sustainability-report.html">
+                <div class="newsroom-card__image" aria-hidden="true">Image</div>
+                <div class="newsroom-card__body">
+                  <div class="newsroom-card__meta">
+                    <span class="newsroom-card__category">Company</span>
+                    <time class="newsroom-card__date" datetime="2026-03-12">12 March, 2026</time>
+                  </div>
+                  <h2 class="newsroom-card__title t-h2">Publishing our 2025 sustainability and operations report</h2>
+                </div>
+              </a>
+            </li>
+            <li data-news-category="press">
+              <a class="newsroom-card" href="news-article-proptech-award.html">
+                <div class="newsroom-card__image" aria-hidden="true">Image</div>
+                <div class="newsroom-card__body">
+                  <div class="newsroom-card__meta">
+                    <span class="newsroom-card__category">Press</span>
+                    <time class="newsroom-card__date" datetime="2026-02-28">28 February, 2026</time>
+                  </div>
+                  <h2 class="newsroom-card__title t-h2">Giraffe360 named Proptech Breakthrough Company of the Year</h2>
+                </div>
+              </a>
+            </li>
+            <li data-news-category="press">
+              <a class="newsroom-card" href="news-article-trade-publication.html">
+                <div class="newsroom-card__image" aria-hidden="true">Image</div>
+                <div class="newsroom-card__body">
+                  <div class="newsroom-card__meta">
+                    <span class="newsroom-card__category">Press</span>
+                    <time class="newsroom-card__date" datetime="2026-01-14">14 January, 2026</time>
+                  </div>
+                  <h2 class="newsroom-card__title t-h2">How agencies cut reshoots with single-capture workflows</h2>
+                </div>
+              </a>
+            </li>
+            <li data-news-category="product-updates">
+              <a class="newsroom-card" href="news-article-studio-batch-edits.html">
+                <div class="newsroom-card__image" aria-hidden="true">Image</div>
+                <div class="newsroom-card__body">
+                  <div class="newsroom-card__meta">
+                    <span class="newsroom-card__category">Product updates</span>
+                    <time class="newsroom-card__date" datetime="2026-04-22">22 April, 2026</time>
+                  </div>
+                  <h2 class="newsroom-card__title t-h2">Content Studio: batch edits and presets across whole projects</h2>
+                </div>
+              </a>
+            </li>
+            <li data-news-category="product-updates">
+              <a class="newsroom-card" href="news-article-firmware-2-4.html">
+                <div class="newsroom-card__image" aria-hidden="true">Image</div>
+                <div class="newsroom-card__body">
+                  <div class="newsroom-card__meta">
+                    <span class="newsroom-card__category">Product updates</span>
+                    <time class="newsroom-card__date" datetime="2025-11-03">3 November, 2025</time>
+                  </div>
+                  <h2 class="newsroom-card__title t-h2">Giraffe PRO Camera firmware 2.4 improves low-light alignment and speed</h2>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__top">
+        <div class="site-footer__subscribe">
+          <p class="t-h2">Receive product news &amp; tips from Giraffe360.</p>
+          <form class="email-field" action="#" method="post">
+            <label class="visually-hidden" for="email">Email address</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email address" autocomplete="email" />
+            <button type="submit" class="icon-btn" aria-label="Subscribe">
+              <img class="icon-btn__icon icon-btn__icon--light" src="Icons/18/Arrow Right.svg" width="18" height="18" alt="" />
+            </button>
+          </form>
+        </div>
+        <button
+          type="button"
+          class="site-footer__locale"
+          id="footer-locale-trigger"
+          aria-label="Region and language"
+          aria-haspopup="dialog"
+          aria-controls="locale-picker"
+          aria-expanded="false"
+        >
+          <img src="Icons/18/Panorama.svg" width="18" height="18" alt="" aria-hidden="true" />
+          <span class="t-nav">
+            <span id="footer-locale-country">Latvia</span><span class="site-footer__slash">/</span
+            ><span id="footer-locale-lang">English</span>
+          </span>
+        </button>
+      </div>
+      <div class="site-footer__links" role="navigation" aria-label="Site">
+        <nav class="site-footer__col" aria-labelledby="footer-company-heading">
+          <h2 id="footer-company-heading" class="site-footer__col-title t-nav">Company</h2>
+          <ul class="site-footer__col-list">
+            <li><a href="about.html">About</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="site-footer__col" aria-labelledby="footer-industries-heading">
+          <h2 id="footer-industries-heading" class="site-footer__col-title t-nav">Industries</h2>
+          <ul class="site-footer__col-list">
+            <li><a href="industry-property-photographers.html">Photographers &amp; media providers</a></li>
+            <li><a href="industry-real-estate-agency.html">Real estate agents</a></li>
+            <li><a href="industry-appraisers-insurance.html">Brokerages</a></li>
+          </ul>
+        </nav>
+      </div>
+      <nav class="site-footer__legal" aria-label="Legal">
+        <a href="legal.html">Legal</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+        <a href="accessibility-statement.html">Accessibility Statement</a>
+        <a href="cookie-notice.html">Cookie Notice</a>
+      </nav>
+    </footer>
+
+    <div
+      id="locale-picker"
+      class="locale-picker"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="locale-picker-heading"
+      hidden
+    >
+      <div class="locale-picker__backdrop" aria-hidden="true"></div>
+      <div class="locale-picker__card">
+        <h2 id="locale-picker-heading" class="visually-hidden">Region &amp; language</h2>
+
+        <div class="locale-picker__fields">
+          <div class="locale-picker__field">
+            <span class="locale-picker__label t-body" id="locale-picker-country-label">Country</span>
+            <div class="locale-picker__combo-wrap">
+              <button
+                type="button"
+                class="locale-picker__combo"
+                id="locale-picker-country-btn"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-labelledby="locale-picker-country-label locale-picker-country-value"
+                aria-controls="locale-picker-country-list"
+              >
+                <span id="locale-picker-country-value">Latvia</span>
+                <img class="locale-picker__chevron" src="Icons/18/chevron_icon.svg" width="24" height="24" alt="" />
+              </button>
+              <div
+                class="locale-picker__listbox"
+                id="locale-picker-country-list"
+                role="listbox"
+                tabindex="-1"
+                aria-labelledby="locale-picker-country-label"
+                hidden
+              ></div>
+            </div>
+          </div>
+
+          <div class="locale-picker__field">
+            <span class="locale-picker__label t-body" id="locale-picker-lang-label">Language</span>
+            <div class="locale-picker__combo-wrap">
+              <button
+                type="button"
+                class="locale-picker__combo"
+                id="locale-picker-lang-btn"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-labelledby="locale-picker-lang-label locale-picker-lang-value"
+                aria-controls="locale-picker-lang-list"
+              >
+                <span id="locale-picker-lang-value">English</span>
+                <img class="locale-picker__chevron" src="Icons/18/chevron_icon.svg" width="24" height="24" alt="" />
+              </button>
+              <div
+                class="locale-picker__listbox locale-picker__listbox--short"
+                id="locale-picker-lang-list"
+                role="listbox"
+                tabindex="-1"
+                aria-labelledby="locale-picker-lang-label"
+                hidden
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn--solid btn--md locale-picker__confirm" id="locale-picker-confirm">
+          Confirm
+        </button>
+      </div>
+    </div>
+
+    <script src="js/world-countries.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/locale-picker.js" defer></script>
+    <script src="js/newsroom.js" defer></script>
+  
+  </body>
+</html>
