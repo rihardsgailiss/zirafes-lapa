@@ -7,6 +7,7 @@
     { code: "en", label: "English" },
     { code: "de", label: "German" },
     { code: "lv", label: "Latvian" },
+    { code: "vincent-v1", label: "Vincents Copy v1" },
   ];
 
   var DEFAULT_COUNTRY = "Latvia";
@@ -428,6 +429,9 @@
     var p = { country: normalizeCountry(draftCountry), lang: normalizeLang(draftLang) };
     savePrefs(p);
     applyPrefsToFooter(p);
+    try {
+      window.dispatchEvent(new CustomEvent("giraffe360:locale", { detail: p }));
+    } catch (e1) {}
     closePanel();
     footerTrigger.focus({ preventScroll: true });
   });

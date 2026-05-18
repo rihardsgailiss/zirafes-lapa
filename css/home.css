@@ -1785,6 +1785,9 @@ a.contacts-location__line:hover {
 }
 
 .newsroom-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
   margin: 0;
   padding: 10px 18px;
   border: 1px solid var(--color-primary-dark);
@@ -1811,6 +1814,19 @@ a.contacts-location__line:hover {
 .newsroom-filter-btn[aria-pressed="true"] {
   background: var(--color-primary-dark);
   color: var(--color-white);
+}
+
+.newsroom-filter__beta-pill {
+  display: none;
+  margin-left: 0.35rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  vertical-align: middle;
+}
+
+html[data-copy-variant="vincent-v1"] .newsroom-filter__beta-pill {
+  display: inline;
 }
 
 .newsroom-page__grid {

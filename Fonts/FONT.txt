@@ -1,1 +1,1 @@
-Add your licensed Gilroy Medium file as Gilroy-Medium.woff2 (preferred) or Gilroy-Medium.otf in this folder. The site references Gilroy-Medium.woff2 in css/fonts.css.
+The bundled font file is Radomir Tinkov - Gilroy-Medium.otf; css/fonts.css loads it via @font-face. To use woff2 instead, add a converted file and update css/fonts.css accordingly.

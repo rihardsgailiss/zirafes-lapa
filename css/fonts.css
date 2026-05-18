@@ -5,8 +5,7 @@
   font-display: swap;
   src:
     local("Gilroy Medium"),
-    url("../Fonts/Gilroy-Medium.woff2") format("woff2"),
-    url("../Fonts/Gilroy-Medium.otf") format("opentype");
+    url("../Fonts/Radomir Tinkov - Gilroy-Medium.otf") format("opentype");
 }
 
 body {

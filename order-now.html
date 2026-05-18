@@ -26,20 +26,20 @@
                 <div class="site-header__mega">
                   <div class="site-header__mega-inner" role="group" aria-label="Product sections">
                     <a class="site-header__mega-card" href="product.html">
-                      <span class="site-header__mega-title">Overview</span>
-                      <span class="site-header__mega-desc">Capture, edit, enhance and share in one platform</span>
+                      <span class="site-header__mega-title" data-copy-id="global.mega.overview.title">Overview</span>
+                      <span class="site-header__mega-desc" data-copy-id="global.mega.overview.desc">Capture, edit, enhance and share in one platform</span>
                     </a>
                     <a class="site-header__mega-card" href="camera.html">
-                      <span class="site-header__mega-title">Camera</span>
-                      <span class="site-header__mega-desc">Giraffe PRO Camera is built to capture everything you need from one property capture.</span>
+                      <span class="site-header__mega-title" data-copy-id="global.mega.camera.title">Camera</span>
+                      <span class="site-header__mega-desc" data-copy-id="global.mega.camera.desc">Giraffe PRO Camera is built to capture everything you need from one property capture.</span>
                     </a>
                     <a class="site-header__mega-card" href="content-studio.html">
-                      <span class="site-header__mega-title">Content Studio</span>
-                      <span class="site-header__mega-desc">Edit, AI enhance, manage and share.</span>
+                      <span class="site-header__mega-title" data-copy-id="global.mega.studio.title">Content Studio</span>
+                      <span class="site-header__mega-desc" data-copy-id="global.mega.studio.desc">Edit, AI enhance, manage and share.</span>
                     </a>
                     <a class="site-header__mega-card" href="outputs.html">
-                      <span class="site-header__mega-title">Content</span>
-                      <span class="site-header__mega-desc">HDR photos, floor plans, virtual tours, videos, websites and more.</span>
+                      <span class="site-header__mega-title" data-copy-id="global.mega.outputs.title">Content</span>
+                      <span class="site-header__mega-desc" data-copy-id="global.mega.outputs.desc">HDR photos, floor plans, virtual tours, videos, websites and more.</span>
                     </a>
                   </div>
                 </div>
@@ -49,7 +49,7 @@
             </ul>
             <div class="site-header__drawer-actions">
               <a class="site-header__login site-header__drawer-only site-header__drawer-only--login" href="login.html">Log in</a>
-              <a class="btn btn--outline btn--sm site-header__drawer-only site-header__drawer-only--try" href="login.html">Try demo</a>
+              <a class="btn btn--outline btn--sm site-header__drawer-only site-header__drawer-only--try" href="login.html" data-copy-id="global.header.tryDemo">Try demo</a>
               <a class="btn btn--solid btn--sm site-header__drawer-only site-header__drawer-only--order" href="order-now.html">Order now</a>
             </div>
           </nav>
@@ -57,7 +57,7 @@
           <div class="site-header__toolbar">
             <div class="site-header__actions">
               <a class="site-header__login site-header__toolbar-login" href="login.html">Log in</a>
-              <a class="btn btn--outline btn--sm site-header__toolbar-try" href="login.html">Try demo</a>
+              <a class="btn btn--outline btn--sm site-header__toolbar-try" href="login.html" data-copy-id="global.header.tryDemo">Try demo</a>
               <a class="btn btn--solid btn--sm site-header__toolbar-order" href="order-now.html">Order now</a>
             </div>
             <div class="site-header__divider site-header__divider--trail" role="presentation"></div>
@@ -92,7 +92,7 @@
                 value="camera"
                 checked
               />
-              <label class="order-package-select__label" for="order-package-camera">
+              <label class="order-package-select__label" for="order-package-camera" data-copy-id="order.bundle.label">
                 Giraffe PRO Camera + Content Studio
               </label>
               <input
@@ -155,7 +155,7 @@
                 <span class="order-promises__icon" aria-hidden="true">
                   <img src="Icons/18/Wallet.svg" width="18" height="18" alt="" />
                 </span>
-                <p class="order-promises__text">30-day money-back guarantee</p>
+                <p class="order-promises__text" data-copy-id="order.promise1">30-day money-back guarantee</p>
               </li>
               <li class="order-promises__item order-promises__item--shipping">
                 <span class="order-promises__icon" aria-hidden="true">
@@ -174,7 +174,7 @@
             <p class="order-pricing-card__discount-note">Discount code can be applied during checkout</p>
 
             <div class="order-checkout">
-              <p class="order-checkout__price" id="order-checkout-price" aria-live="polite">$360 / month</p>
+              <p class="order-checkout__price" id="order-checkout-price" aria-live="polite" data-copy-id="order.price.monthly">$360 / month</p>
               <a class="order-checkout__btn" href="#checkout">Checkout</a>
             </div>
           </article>
@@ -216,14 +216,144 @@
             </ul>
           </div>
           <div class="order-sticky-pricing__checkout">
-            <p class="order-sticky-pricing__price" id="order-sticky-checkout-price" aria-live="polite">$360 / month</p>
+            <p class="order-sticky-pricing__price" id="order-sticky-checkout-price" aria-live="polite" data-copy-id="order.price.monthly">$360 / month</p>
             <a class="order-sticky-pricing__btn" href="#checkout" tabindex="-1">Checkout</a>
           </div>
         </div>
       </div>
     </div>
 
+    <footer class="site-footer">
+      <div class="site-footer__top">
+        <div class="site-footer__subscribe">
+          <p class="t-h2" data-copy-id="global.footer.subscribe">Receive product news &amp; tips from Giraffe360.</p>
+          <form class="email-field" action="#" method="post">
+            <label class="visually-hidden" for="email-order">Email address</label>
+            <input id="email-order" type="email" name="email" placeholder="Enter your email address" autocomplete="email" />
+            <button type="submit" class="icon-btn" aria-label="Subscribe">
+              <img class="icon-btn__icon icon-btn__icon--light" src="Icons/18/Arrow Right.svg" width="18" height="18" alt="" />
+            </button>
+          </form>
+        </div>
+        <button
+          type="button"
+          class="site-footer__locale"
+          id="footer-locale-trigger"
+          aria-label="Region and language"
+          aria-haspopup="dialog"
+          aria-controls="locale-picker"
+          aria-expanded="false"
+        >
+          <img src="Icons/18/Panorama.svg" width="18" height="18" alt="" aria-hidden="true" />
+          <span class="t-nav">
+            <span id="footer-locale-country">Latvia</span><span class="site-footer__slash">/</span
+            ><span id="footer-locale-lang">English</span>
+          </span>
+        </button>
+      </div>
+      <div class="site-footer__links" role="navigation" aria-label="Site">
+        <nav class="site-footer__col" aria-labelledby="footer-company-heading">
+          <h2 id="footer-company-heading" class="site-footer__col-title t-nav">Company</h2>
+          <ul class="site-footer__col-list">
+            <li><a href="about.html">About</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="site-footer__col" aria-labelledby="footer-industries-heading">
+          <h2 id="footer-industries-heading" class="site-footer__col-title t-nav">Industries</h2>
+          <ul class="site-footer__col-list">
+            <li><a href="industry-property-photographers.html">Photographers &amp; media providers</a></li>
+            <li><a href="industry-real-estate-agency.html">Real estate agents</a></li>
+            <li><a href="industry-appraisers-insurance.html">Brokerages</a></li>
+          </ul>
+        </nav>
+      </div>
+      <nav class="site-footer__legal" aria-label="Legal">
+        <a href="legal.html">Legal</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+        <a href="accessibility-statement.html">Accessibility Statement</a>
+        <a href="cookie-notice.html">Cookie Notice</a>
+      </nav>
+    </footer>
+
+    <div
+      id="locale-picker"
+      class="locale-picker"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="locale-picker-heading"
+      hidden
+    >
+      <div class="locale-picker__backdrop" aria-hidden="true"></div>
+      <div class="locale-picker__card">
+        <h2 id="locale-picker-heading" class="visually-hidden">Region &amp; language</h2>
+
+        <div class="locale-picker__fields">
+          <div class="locale-picker__field">
+            <span class="locale-picker__label t-body" id="locale-picker-country-label">Country</span>
+            <div class="locale-picker__combo-wrap">
+              <button
+                type="button"
+                class="locale-picker__combo"
+                id="locale-picker-country-btn"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-labelledby="locale-picker-country-label locale-picker-country-value"
+                aria-controls="locale-picker-country-list"
+              >
+                <span id="locale-picker-country-value">Latvia</span>
+                <img class="locale-picker__chevron" src="Icons/18/chevron_icon.svg" width="24" height="24" alt="" />
+              </button>
+              <div
+                class="locale-picker__listbox"
+                id="locale-picker-country-list"
+                role="listbox"
+                tabindex="-1"
+                aria-labelledby="locale-picker-country-label"
+                hidden
+              ></div>
+            </div>
+          </div>
+
+          <div class="locale-picker__field">
+            <span class="locale-picker__label t-body" id="locale-picker-lang-label">Language</span>
+            <div class="locale-picker__combo-wrap">
+              <button
+                type="button"
+                class="locale-picker__combo"
+                id="locale-picker-lang-btn"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-labelledby="locale-picker-lang-label locale-picker-lang-value"
+                aria-controls="locale-picker-lang-list"
+              >
+                <span id="locale-picker-lang-value">English</span>
+                <img class="locale-picker__chevron" src="Icons/18/chevron_icon.svg" width="24" height="24" alt="" />
+              </button>
+              <div
+                class="locale-picker__listbox locale-picker__listbox--short"
+                id="locale-picker-lang-list"
+                role="listbox"
+                tabindex="-1"
+                aria-labelledby="locale-picker-lang-label"
+                hidden
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn--solid btn--md locale-picker__confirm" id="locale-picker-confirm">
+          Confirm
+        </button>
+      </div>
+    </div>
+
+    <script src="js/world-countries.js" defer></script>
     <script src="js/main.js" defer></script>
+    <script src="js/locale-picker.js" defer></script>
+    <script src="js/vincent-copy-data.js" defer></script>
+    <script src="js/copy-variant.js" defer></script>
     <script src="js/order-now.js" defer></script>
   
   </body>
